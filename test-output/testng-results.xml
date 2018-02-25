@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="2" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="162473" started-at="2018-02-25T04:51:41Z" finished-at="2018-02-25T04:54:23Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="162473" started-at="2018-02-25T04:51:41Z" finished-at="2018-02-25T04:54:23Z">
+      <class name="testcases.TC002_CreateLead">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testcases.TC002_CreateLead@c0a365]" name="beforeSuite" is-config="true" duration-ms="1265" started-at="2018-02-25T04:51:40Z" finished-at="2018-02-25T04:51:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="setData()[pri:0, instance:testcases.TC002_CreateLead@c0a365]" name="setData" is-config="true" duration-ms="0" started-at="2018-02-25T04:51:41Z" finished-at="2018-02-25T04:51:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testcases.TC002_CreateLead@c0a365]" name="beforeTest" is-config="true" duration-ms="0" started-at="2018-02-25T04:51:41Z" finished-at="2018-02-25T04:51:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.TC002_CreateLead@c0a365]" name="beforeMethod" is-config="true" duration-ms="12887" started-at="2018-02-25T04:51:43Z" finished-at="2018-02-25T04:51:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="createLead(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC002_CreateLead@c0a365]" name="createLead" duration-ms="67114" started-at="2018-02-25T04:51:56Z" data-provider="fetchData" finished-at="2018-02-25T04:53:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Selenium Automation Engineer]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[FIS]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[nm]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException
+at utils.Reporter.reportStep(Reporter.java:61)
+at utils.Reporter.reportStep(Reporter.java:71)
+at wdMethods.SeMethods.getText(SeMethods.java:160)
+at wdMethods.SeMethods.verifyPartialText(SeMethods.java:235)
+at pages.HomePage.verifyLoggedName(HomePage.java:29)
+at testcases.TC002_CreateLead.createLead(TC002_CreateLead.java:28)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLead -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TC002_CreateLead@c0a365]" name="afterMethod" is-config="true" duration-ms="1328" started-at="2018-02-25T04:53:03Z" finished-at="2018-02-25T04:53:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.TC002_CreateLead@c0a365]" name="beforeMethod" is-config="true" duration-ms="12479" started-at="2018-02-25T04:53:04Z" finished-at="2018-02-25T04:53:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="createLead(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC002_CreateLead@c0a365]" name="createLead" duration-ms="65462" started-at="2018-02-25T04:53:17Z" data-provider="fetchData" finished-at="2018-02-25T04:54:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Selenium Automation Engineer]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[paypall]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[pr]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[nm]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException
+at utils.Reporter.reportStep(Reporter.java:61)
+at utils.Reporter.reportStep(Reporter.java:71)
+at wdMethods.SeMethods.getText(SeMethods.java:160)
+at wdMethods.SeMethods.verifyPartialText(SeMethods.java:235)
+at pages.HomePage.verifyLoggedName(HomePage.java:29)
+at testcases.TC002_CreateLead.createLead(TC002_CreateLead.java:28)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLead -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TC002_CreateLead@c0a365]" name="afterMethod" is-config="true" duration-ms="1142" started-at="2018-02-25T04:54:22Z" finished-at="2018-02-25T04:54:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.TC002_CreateLead@c0a365]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-02-25T04:54:23Z" finished-at="2018-02-25T04:54:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="aftdataSheetNameerSuite()[pri:0, instance:testcases.TC002_CreateLead@c0a365]" name="aftdataSheetNameerSuite" is-config="true" duration-ms="984" started-at="2018-02-25T04:54:24Z" finished-at="2018-02-25T04:54:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftdataSheetNameerSuite -->
+      </class> <!-- testcases.TC002_CreateLead -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
